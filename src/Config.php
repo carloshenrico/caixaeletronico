@@ -2,11 +2,11 @@
 namespace src;
 
 class Config {
-    const BASE_DIR = '/mvc/public';
+    const BASE_DIR = '/projetos/caixa/public';
 
     const DB_DRIVER = 'mysql';
     const DB_HOST = 'localhost';
-    const DB_DATABASE = 'test';
+    const DB_DATABASE = 'caixaeletronico';
     CONST DB_USER = 'root';
     const DB_PASS = '';
 
