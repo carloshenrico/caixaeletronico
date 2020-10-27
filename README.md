@@ -1,15 +1,17 @@
 ## Sistema de Caixa Eletronico
 
 -- Funcoes:
+```
     - Login
     - Mostrar dados
     - Mostrar Saldo
     - Bloqueio de Multiplos acessos
-
+```
 -- Em Breve:
+```
     - Transações
     - Historico de Transações
-
+```
 ## Instalação
 Você pode clonar este repositório OU baixar o .zip
 
