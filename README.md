@@ -1,14 +1,14 @@
 ## Sistema de Caixa Eletronico
 
 -- Funcoes:
-```
+```php
     - Login
     - Mostrar dados
     - Mostrar Saldo
     - Bloqueio de Multiplos acessos
 ```
 -- Em Breve:
-```
+```php
     - Transações
     - Historico de Transações
 ```
