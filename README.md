@@ -1,13 +1,12 @@
 ## Sistema de Caixa Eletronico
 
--- Funções:
+-- Funcoes:
     - Login
     - Mostrar dados
     - Mostrar Saldo
     - Bloqueio de Multiplos acessos
 
 -- Em Breve:
-
     - Transações
     - Historico de Transações
 
