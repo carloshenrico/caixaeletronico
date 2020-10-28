@@ -1,5 +1,5 @@
 ## Sistema de Caixa Eletronico
-![alt text](https://github.com/carloshenrico/caixaeletronico/blob/main/public/assets/img/print.png)
+![alt text](https://github.com/carloshenrico/caixaeletronico/blob/main/public/assets/img/print2.png)
 -- Funcoes:
 ```php
     - Login
@@ -7,9 +7,6 @@
     - Mostrar Saldo
     - Bloqueio de Multiplos acessos
     - Historico de Transações
-```
--- Em Breve:
-```php
     - Transações
 ```
 ## Instalação
