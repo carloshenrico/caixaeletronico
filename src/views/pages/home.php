@@ -29,7 +29,7 @@
         <div class="">
         <a href="<?=$base;?>/sair" class="btn btn-danger">Sair da Conta</a>
         <a href="<?=$base;?>/transferencia" class="btn btn-success">Fazer uma transferencia</a>
-        <a href="<?=$base;?>/historico" class="btn btn-info">Histórico de Transações</a>
+        <a href="<?=$base;?>/historico" class="btn btn-info">Histórico de Transferencias</a>
         </div>
         </div>
 

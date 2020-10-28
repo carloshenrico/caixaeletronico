@@ -24,12 +24,12 @@
       <td><?=$item['destino'];?></td>
       <td><?php
       if($item['tipo'] == '0'){
-          echo "<font color='green'>ADICIONOU</font>";
+          echo "<font color='green'>Recebido</font>";
       }else{
-          echo "<font color='red'>RETIROU</font>";
+          echo "<font color='red'>Transferir</font>";
       }
       ?></td>
-      <td><?=$item['valor'];?></td>
+      <td>R$<?=$item['valor'];?></td>
     </tr>
       <?php endforeach;?>
   </tbody>
