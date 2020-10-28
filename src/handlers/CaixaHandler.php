@@ -19,6 +19,7 @@ class CaixaHandler{
             $data = Conta::select()->where('token', $token)->one();
             if($data){
                 $loggedUser = new Conta();
+                $loggedUser->setId($data['id']);
                 $loggedUser->setTitular($data['titular']);
                 $loggedUser->setAgencia($data['agencia']);
                 $loggedUser->setConta($data['conta']);

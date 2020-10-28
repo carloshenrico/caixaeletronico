@@ -3,7 +3,8 @@ namespace src\models;
 use \core\Model;
 
 class Conta extends Model {
-
+    
+    public $id;
     public $titulo;
     public $agencia;
     public $conta;
@@ -39,5 +40,13 @@ class Conta extends Model {
     
     public function getSaldo(){
         return $this->saldo;
+    }
+
+    public function setId($i){
+        $this->id = $i;
+    }
+    
+    public function getId(){
+        return $this->id;
     }
 }

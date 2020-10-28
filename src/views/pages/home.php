@@ -26,8 +26,12 @@
             <h3>R$<?=$user->getSaldo();?></h3>
         </div>
         <div class="w-100"></div>
+        <div class="">
         <a href="<?=$base;?>/sair" class="btn btn-danger">Sair da Conta</a>
-    </div>
+        <a href="<?=$base;?>/transferencia" class="btn btn-success">Fazer uma transferencia</a>
+        <a href="<?=$base;?>/historico" class="btn btn-info">Histórico de Transações</a>
+        </div>
+        </div>
 
 </div>
 
