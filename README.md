@@ -6,11 +6,11 @@
     - Mostrar dados
     - Mostrar Saldo
     - Bloqueio de Multiplos acessos
+    - Historico de Transações
 ```
 -- Em Breve:
 ```php
     - Transações
-    - Historico de Transações
 ```
 ## Instalação
 Você pode clonar este repositório OU baixar o .zip
