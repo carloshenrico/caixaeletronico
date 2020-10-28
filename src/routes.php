@@ -11,3 +11,4 @@ $router->get('/sair', 'LoginController@logout');
 $router->get('/historico', 'HistoricoController@historico');
 
 $router->get('/transferencia', 'TransacaoController@transferencia');
+$router->post('/transferencia', 'TransacaoController@transferir');

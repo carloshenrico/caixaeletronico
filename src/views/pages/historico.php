@@ -11,6 +11,7 @@
     <tr>
       <th scope="col">Titular</th>
       <th scope="col">Data</th>
+      <th scope="col">Destino</th>
       <th scope="col">Tipo</th>
       <th scope="col">Valor</th>
     </tr>
@@ -20,6 +21,7 @@
     <tr>
       <td><?=$user->getTitular();?></td>
       <td><?php echo date('d/m/Y H:i', strtotime($item['data_operacao'])) ?></td>
+      <td><?=$item['destino'];?></td>
       <td><?php
       if($item['tipo'] == '0'){
           echo "<font color='green'>ADICIONOU</font>";
